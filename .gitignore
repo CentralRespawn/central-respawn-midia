@@ -1,1 +1,6 @@
-permitir assets/fonts vazio (as fontes são baixadas no CI)
+__pycache__/
+*.pyc
+
+# as fontes são baixadas pelo workflow; não versionamos binários de fonte
+assets/fonts/*
+!assets/fonts/.gitkeep
